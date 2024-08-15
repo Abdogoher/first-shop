@@ -1,0 +1,38 @@
+#div1{
+    width: 50vw;
+    margin: auto;
+    border-radius: 20px;
+    border: 2px solid blue;
+    display: none;
+}
+#div2{
+    background-color: rgb(58, 108, 255);
+    height: 70px;
+    width: 300px;
+    font-size: 45px;
+    border: 2px dotted black;
+    text-align: center;
+    border-radius: 10px;
+    /* margin: auto; */
+    display: none;
+    line-height: 60px;
+    color: #fff;
+    margin-top: 20px;
+    animation: chang1 2s ease-out forwards;
+}
+footer{
+    height: 20vh;
+    background-color: rgb(205, 205, 205);
+    padding-top: 50px;
+}
+#btnprice{
+    animation: chang1 2s ease-out forwards;
+}
+@keyframes chang1{
+    0%{
+        transform: translatex(0);
+    }
+    100%{
+        transform: translatex(600px);
+    }
+}
